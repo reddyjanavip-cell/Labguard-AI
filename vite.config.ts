@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Labguard-AI/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
